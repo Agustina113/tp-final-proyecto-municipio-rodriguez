@@ -1,0 +1,117 @@
+body {
+  background: greenyellow;
+  font-family: McLaren;
+  font-size: 30px;
+}
+
+.Logo {
+  width: 170px;
+  float: right;
+}
+
+#Menú li {
+  list-style-type: none;
+  font-size: 40px;
+  font-family: Chau Philomene One;
+  color: black;
+}
+
+section {
+  margin-top: 100px;
+  background: white;
+}
+
+#Museo h1 img {
+  float: right;
+  border-radius: 100%;
+}
+
+h1 {
+  text-decoration-line: underline;
+  font-family: Chau Philomene One;
+  font-size: 70px;
+}
+
+.ImgM, .PD {
+  width: 100%;
+  height: auto;
+}
+
+#Museo h6 {
+  text-decoration-line: underline;
+  font-size: 35px;
+  font-family: Chau Philomene One;
+}
+
+.Charlas img, .Visitas img {
+  border-radius: 100%;
+  width: 350px;
+  height: 200px;
+}
+
+.Charlas, .Visitas {
+  font-size: 20px;
+  text-align: center;
+  width: 300px;
+  height: 200px;
+  padding: 60px;
+  display: inline-table;
+  text-indent: 0px;
+}
+
+.LogoPD {
+  width: 200px;
+  margin-bottom: -10px;
+}
+
+.Cont img {
+  width: 200px;
+  height: 200px;
+}
+
+.Cont li {
+  font-size: 20px;
+  width: 200px;
+  height: 100px;
+  display: inline-table;
+}
+
+#PDigital strong {
+  font-size: 25px;
+  display: block;
+}
+
+p {
+  text-indent: 40px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: brown;
+}
+
+a:hover, a:active {
+  text-decoration: blue;
+}
+
+#Menú a:visited {
+  color: black;
+}
+
+footer {
+  border-top: 5px solid gainsboro;
+  font-size: 20px;
+}
+
+.Contacto {
+  float: right;
+  margin-top: -60px;
+}
+
+.Email {
+  float: right;
+  margin-top: -30px;
+}

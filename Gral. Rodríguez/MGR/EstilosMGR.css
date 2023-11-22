@@ -1,0 +1,301 @@
+body {
+  background: greenyellow;
+  font-family: McLaren;
+}
+
+header {
+  background-image: url("./RecursosMGR/MGR.jpg");
+  width: 100%;
+  height: 600px;
+  backgroud-size: cover;
+}
+
+h1 {
+  font-family: Chau Philomene One;
+  font-size: 80px;
+  display: flex;
+  flex-direction: center;
+  position: absolute;
+  margin-left: 220px;
+  margin-top: 210px;
+  text-decoration: overline;
+  text-decoration-thickness: 2px;
+  
+}
+
+h4 {
+  font-size: 40px;
+  display: flex;
+  flex-direction: center;
+  position: absolute;
+  margin-left: 225px;
+  margin-top: 290px;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.Logo {
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: 195px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.barra li  {
+  font-family: Chau Philomene One;
+  list-style-type: none;
+  display: inline;
+  font-size: 30px;
+  border-top: 10px solid yellowgreen;
+  background: yellowgreen;
+  width: 100%;
+  height: 50px;
+}
+
+.barra {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 2px;
+}
+
+.Tramites-content li, .Datos-content li {
+  display: none;
+  position: relative;
+  z-index: 1;
+}
+
+.Tramites:hover .Tramites-content li, 
+.Datosutiles:hover .Datos-content li {
+  display: block;
+  width: max-content;
+}
+
+article a {
+  width: 300px;
+  height: 200px;
+  background-size: 300px;
+  background-repeat: no-repeat;
+  font-family: Chau Philomene One;
+  font-size: 30px;
+  color: white;
+  display: inline-table;
+}
+
+.Tablets {
+  background-image: url("./RecursosMGR/Enacom.jpg");
+}
+
+.McDonalds {
+  background-image: url("./RecursosMGR/McDonald's.jpeg");
+  background-size: 315px;
+}
+
+.Reciclaje {
+  background-image: url("./RecursosMGR/Camionreciclaje.jpg");
+}
+
+.Primaria23 {
+  background-image: url("./RecursosMGR/Escuela23.jpg");
+}
+
+.Periodismo {
+  background-image: url("./RecursosMGR/Periodismo.png");
+  background-size: 400px;
+}
+
+.Lotes {
+  background-image: url("./RecursosMGR/Lotes.jpg");
+  background-size: 400px;
+}
+
+h3 {
+  font-family: McLaren;
+  font-size: 70px;
+  text-align-last: center;
+  text-shadow: 10px 10px white;
+}
+
+.Pag a {
+  color: white;
+  position: absolute;
+  margin-top: 140px;
+  margin-left: 60px;
+  width: 7px;
+}
+
+#Museo a, #PoloInd a {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+#Cementerio a, #Zoonosis a, #Historia a, #Intendente a {
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+#Poli a {
+  margin-top: 60px;
+  margin-left: 10px;
+}
+
+.Pag li {
+  background-image: url("./RecursosMGR/Museo.jpg");
+  width: 190px;
+  height: 170px;
+  object-fit: scale-down;
+  background-size: 250px;
+  background-repeat: no-repeat;
+  border-radius: 100px;
+  font-size: 25px;
+  display: inline-table;
+  margin-left: 100px;
+}
+
+#Salud {
+  background-image: url("./RecursosMGR/LogoSalud.png");
+  background-size: 210px;
+  margin-left: 50px;
+}
+
+#Salud a {
+  color: black;
+}
+
+#Cementerio {
+  background-image: url("./RecursosMGR/Cementerio.jpg");
+}
+
+#Zoonosis {
+  background-image: url("./RecursosMGR/Zoonosis.jpeg");
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+#Poli {
+  background-image: url("./RecursosMGR/Polideportivo.jpeg");
+}
+
+#PoloInd {
+  background-image: url("./RecursosMGR/PoloInd.jpg");
+}
+
+#Historia {
+  background-image: url("./RecursosMGR/EstatuaGR.jpg");
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+#Intendente {
+  background-image: url("./RecursosMGR/Mauro-García.jpg");
+  margin-left: 120px;
+}
+
+h5 {
+  font-family: Chau Philomene One;
+  font-size: 50px;
+  text-decoration: underline overline;
+  text-shadow: 5px 5px 10px white;
+}
+
+.Proyectos li {
+  font-family: Chau Philomene One;
+  font-size: 25px;
+  list-style-type: square;
+  display: inline-table;
+  width: 200px;
+  margin-inline-start: 50px;
+  list-style-position: outside;
+}
+
+.Intendente li {
+  font-family: Chau Philomene One;
+  list-style-type: none;
+  font-size: 30px;
+}
+
+.Ubicacion {
+  background: url("./RecursosMGR/GoogleMaps.jpg");
+  display: flex;
+  width:450px;
+  height:200px;
+  padding-left:200px;
+  margin-left:300px;
+  margin-top: -200px;
+  object-fit: fill;
+  background-size: cover;
+}
+
+.linea {
+  position: absolute;
+  border: 1px solid gainsboro;
+  width: 100%;
+  height: 0px;
+}
+
+footer {
+  font-size: 15px;
+}
+
+.Direccion {
+  margin-top: 30px;
+}
+
+.redes {
+  text-align: center;
+  margin-top: -120px;
+}
+
+#Fb {
+  color: white;
+  background: blue;
+  font-size: 22px;
+  border-radius: 100%;
+}
+
+#Ig {
+  color: fuchsia;
+  font-size: 25px;
+}
+
+#Tw {
+  background: greenyellow;
+  color: blue;
+  font-size: 25px;
+}
+
+#Yt {
+  color: red;
+  font-size: 25px;
+}
+
+h6 {
+  font-size: 20px;
+  font-family: Chau Philomene One;
+  margin-top: -9px;
+}
+
+form {
+  padding: 10px;
+  background: yellowgreen;
+  border-radius: 30px;
+  margin-top: -48px;
+  height: 250px;
+  width: 300px;
+  float: right;
+}
+
+.C {
+  padding: 30px 50px;
+}
+
+.Enviar {
+  background-color: white;
+  color: yellowgreen;
+  border-radius: 50px;
+  float: right;
+}

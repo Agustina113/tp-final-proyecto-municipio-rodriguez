@@ -1,0 +1,18 @@
+body {
+  background: gainsboro;
+  font-family: Chau Philomene One;
+  font-size: 25px;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h1 img {
+  width: 250px;
+  float: left;
+}
+
+p img {
+  width: 100%;
+}

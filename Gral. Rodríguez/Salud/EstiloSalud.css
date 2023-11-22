@@ -1,0 +1,107 @@
+body {
+  background: greenyellow;
+  font-family: Chau Philomene One;
+  font-size: 25px;
+}
+
+#VLopez {
+  font-family: McLaren;
+}
+
+#VLopez footer {
+  border-top: gainsboro 5px solid;
+  border-bottom: gainsboro 5px solid;
+}
+
+#VLopez address {
+  text-align: center;
+}
+
+.Logo {
+  width: 150px;
+  float: inline-start;
+}
+
+header h1 {
+  font-size: 100px;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  letter-spacing: 15px;
+}
+
+#Menú a {
+  font-size: 25px;
+  text-decoration: none;
+}
+
+h4 {
+  font-size: 40px;
+}
+
+h1, h2, h3 {
+  font-size: 70px;
+}
+
+#Guardia {
+  background: white;
+  height: 500px;
+}
+
+#Guardia ul {
+  column-count: 2;
+  list-style-type: none;
+}
+
+h2 img {
+  width: 100px;
+}
+
+#Consultorios {
+  background-image: URL("./RecursosSalud/Estetoscopio.png");
+  background-repeat: no-repeat;
+  background-position: 3px;
+  background-size: 100%;
+}
+
+#Consultorios ul {
+  display: inline-table;
+}
+
+#Sommer ul {
+  column-count: 2;
+  list-style-type: none;
+}
+
+#Sommer p {
+  text-indent: 30px;
+}
+
+#Sommer footer {
+  text-align: center;
+  animation: mymove 3s infinite;
+}
+
+@keyframes mymove {
+  5% 
+}
+
+
+#DatosHospitalito {
+  background: yellow;
+  margin-top: -500px;
+  margin-right: 100px;
+  border-radius: 15px;
+  animation: mymove 5s infinite;
+  rotate: -30deg;
+  float: right;
+}
+
+@keyframes mymove {
+  10% {
+    letter-spacing: 5px;
+  }
+}
+
+a {
+  text-decoration: none;
+}

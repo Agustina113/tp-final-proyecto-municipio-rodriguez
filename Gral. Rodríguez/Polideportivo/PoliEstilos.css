@@ -1,0 +1,59 @@
+body {
+  background: greenyellow;
+  font-family: McLaren;
+  font-size: 25px;
+}
+
+h1 img {
+  width: 250px;
+  float: left;
+}
+
+h1 {
+  font-family: Chau Philomene One;
+  font-size: 70px;
+}
+
+header {
+  border-bottom: gainsboro 5px solid;
+  margin-bottom: 20px;
+}
+
+.Cronograma, img {
+  align-content: inline-table;
+  width: 470px;
+}
+
+h2, h3 {
+  font-size: 50px;
+  background: cadetblue;
+  text-align: center;
+  
+}
+
+h3 {
+  background: yellow;
+}
+
+h6 {
+  font-size: 25px;
+}
+
+article img {
+  float: left;
+  width: 200px;
+  height: 300px;
+  align-content:
+}
+
+article p, h6 {
+  width: 450px;
+}
+
+article {
+  display: inline-table;
+}
+
+footer {
+  background: white;
+}

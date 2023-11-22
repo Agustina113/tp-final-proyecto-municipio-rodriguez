@@ -1,0 +1,49 @@
+body {
+  background: gainsboro;
+  font-family: Chau Philomene One;
+}
+
+header {
+  background: white;
+  margin-top: 70px;
+}
+
+header img {
+  margin-left: 290px;
+}
+
+h1 {
+  font-size: 60px;
+  margin-top: -140px;
+}
+
+p {
+  text-indent: 30px;
+  font-size: 25px;
+}
+
+.t1 img {
+  float: right;
+}
+
+.t2 img {
+  float: left;
+  width: 50%;
+}
+
+footer {
+  background: white;
+  text-align: center;
+}
+
+.Ad, .Com {
+  text-decoration-line: underline;
+}
+
+.Ub {
+  color: cornflowerblue;
+  font-size: 25px;
+  text-emphasis: dot;
+  text-emphasis-position: under;
+  
+}
